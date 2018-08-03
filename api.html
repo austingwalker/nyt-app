@@ -7,6 +7,36 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="container">
+        <!-- header -->
+        <h1>New York Times Search</h1>
+
+        <!-- We'll be dumping our JSON contents in here -->
+        <div id="nyt-view"></div>
+
+        <!-- this form will be where users input data -->
+        <form id="search-form">
+
+            <!-- "Search Term" input line -->
+            <label for="search-term">Search Term:</label><br>
+            <input type="text" id="search-term"><br><br>
+            
+            <!-- "no. of records to retrieve" input line (in numbers versus text) -->
+            <label for="search-numbRecords">Number of Records to Retrieve:</label><br>
+            <input type="number" id="search-numbRecords"><br><br>
+            
+            <!-- "Start Year" input line (in numbers) -->
+            <label for="start-year">Start Year (Optional):</label><br>
+            <input type="number" id="start-year"><br><br>
+            
+            <!-- "End Year" input line (in numbers)-->
+            <label for="end-year">End Year (Optional):</label><br>
+            <input type="number" id="end-year"><br><br>
+
+            <!-- This button will trigger our AJAX call -->
+            <input id="search-nyt" type="submit" value="Search">
+        </form>
+
+    </div>
 </body>
 </html>
