@@ -16,9 +16,8 @@ h1 {
     text-align: left;
     background: lightgray;
 }
-.container {
-    width: 300px;
-    border: 15px solid gray;
-    padding: 25px;
-    margin: 25px;
+#form-container {
+    /* border: 15px solid gray; */
+    padding: 5px;
+    margin: 10px;
 }
