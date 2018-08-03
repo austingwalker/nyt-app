@@ -15,4 +15,10 @@ h1 {
 #row-title {
     text-align: left;
     background: lightgray;
+
+.container {
+    width: 300px;
+    border: 15px solid gray;
+    padding: 25px;
+    margin: 25px;
 }
